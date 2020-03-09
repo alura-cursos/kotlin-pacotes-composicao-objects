@@ -1,4 +1,0 @@
-package novomodelo
-
-class Cliente {
-}
