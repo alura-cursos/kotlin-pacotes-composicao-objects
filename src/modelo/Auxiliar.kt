@@ -1,3 +1,7 @@
+package modelo
+
+import modelo.Funcionario
+
 class Auxiliar(
     nome: String,
     cpf: String,

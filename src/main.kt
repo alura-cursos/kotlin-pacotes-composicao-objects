@@ -1,3 +1,6 @@
+import teste.testaAutenticacao
+import teste.testaComportamentosConta
+
 fun main() {
-    testaAutenticacao()
+    testaComportamentosConta()
 }
