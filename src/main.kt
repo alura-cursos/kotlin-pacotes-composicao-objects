@@ -1,6 +1,8 @@
-import teste.kotlin.Teste
+import modelo.Cliente
+import novomodelo.Cliente as NovoCliente
 import teste.testaFuncionarios
 
 fun main() {
-    Teste()
+    val cliente = Cliente(nome = "Alex", cpf = "", senha = 1)
+    val clienteNovo = NovoCliente()
 }
