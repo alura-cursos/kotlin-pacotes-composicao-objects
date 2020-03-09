@@ -1,6 +1,6 @@
-import teste.testaAutenticacao
-import teste.testaComportamentosConta
+import teste.kotlin.Teste
+import teste.testaFuncionarios
 
 fun main() {
-    testaComportamentosConta()
+    Teste()
 }
