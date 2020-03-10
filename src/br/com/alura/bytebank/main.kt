@@ -3,8 +3,6 @@ package br.com.alura.bytebank
 import br.com.alura.bytebank.modelo.*
 import br.com.alura.bytebank.teste.testaContasDiferentes
 
-
-
 fun main() {
 
     val fran = object : Autenticavel {
@@ -14,11 +12,11 @@ fun main() {
 
         override fun autentica(senha: Int) = this.senha == senha
     }
-
     val sistemaInterno = SistemaInterno()
     sistemaInterno.entra(fran, 1000)
-
     println("nome do cliente ${fran.nome}")
+
+
 
 
     val alex = Cliente(nome = "Alex", cpf = "", senha = 1)
@@ -27,5 +25,5 @@ fun main() {
 
     testaContasDiferentes()
 
-    println("Total de contas: $totalContas")
+    println("Total de contas: ${Conta.total}")
 }
