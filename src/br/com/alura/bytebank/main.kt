@@ -8,6 +8,7 @@ fun main() {
     val endereco = Endereco()
 
     val objeto: Any = Any()
+    objeto.
 
     imprime(objeto)
 
@@ -15,6 +16,8 @@ fun main() {
     imprime(1.0)
     val teste: Any = imprime(endereco)
     println(teste)
+
+    testaFuncionarios()
 }
 
 fun imprime(valor: Any) : Any{
